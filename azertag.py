@@ -2,7 +2,7 @@ from abbreviations import schwartz_hearst
 
 from scraper import Scraper
 
-URL = 'https://azertag.az/bolme/economy'
+URL = 'https://azertag.az/bolme/economy?page=13'
 DOMAIN = 'https://azertag.az'
 MAX_PAGE_COUNT = 5
 sc = Scraper(url=URL)
